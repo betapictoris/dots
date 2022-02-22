@@ -27,6 +27,8 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
+Plug 'davidhalter/jedi-vim'
+
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'ghifarit53/tokyonight-vim'
 
@@ -58,3 +60,14 @@ lua require'colorizer'.setup()
 
 
 nnoremap <leader>v <cmd>CHADopen<cr>
+
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" Start NERDTree and put the cursor back in the other window.
+autocmd VimEnter * NERDTree | wincmd p
+
+" bufferline
+nnoremap <silent><F2> :BufferLineCycleNext<CR>
+nnoremap <silent><F3> :BufferLineCyclePrev<CR>
+nnoremap <silent><F4> :BufferLinePick<CR>
