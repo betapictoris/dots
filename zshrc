@@ -39,5 +39,7 @@ alias seashell="nc seashells.io 1337"
 alias chat-libera="catgirl -h irc.libera.chat -n beta_"
 alias pmc="python3 -m portablemc"
 
+alias load-jabba='[ -s "/home/beta/.jabba/jabba.sh" ] && source "/home/beta/.jabba/jabba.sh"'
+
 # Add spicetify to path
 export PATH="$PATH:$HOME/.spicetify"
