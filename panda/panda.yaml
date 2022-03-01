@@ -1,0 +1,19 @@
+# Base16 YAML for Panda
+scheme: "Panda"
+author: "BetaPictoris"
+base00: "383838" #383838
+base01: "212121" #212121
+base02: "FFC6C6" #FFC6C6
+base03: "FFC6DE" #FFC6DE
+base04: "B4FFD8" #B4FFD8
+base05: "D6F7E6" #D6F7E6
+base06: "FFD6A5" #FFD6A5
+base07: "FFE6DE" #FFE6DE
+base08: "CCE6FF" #CCE6FF
+base09: "E6F7FF" #E6F7FF
+base0A: "F3E4FF" #F3E4FF
+base0B: "E6C6FF" #E6C6FF
+base0C: "D2FCFF" #D2FCFF
+base0D: "ABEFF3" #ABEFF3
+base0E: "EAEAEA" #EAEAEA
+base0F: "D2D2D2" #D2D2D2
