@@ -5,41 +5,25 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-xrdb merge $HOME/.xresources
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Set sudo prompt
+# Exports
 export SUDO_PROMPT=" Password: "
 
 # Aliases
-alias ls="exa -l"
+alias ls="exa -la"
 alias cat="bat -p"
+
 alias vim="nvim"
-alias cpufetch="cpufetch --logo-intel-new"
-alias top="htop"
+alias code="nvim"
 
-alias rm="rm -rv"
-alias mv="mv -v"
 alias mkdir="mkdir -pv"
+alias cp="cp -rv"
+alias mv="mv -v"
+alias rm="rm -rv"
 
-alias l="ls"
-alias c="clear"
-alias d="rm"
-alias m="mv"
-alias n="mkdir"
 alias x="exit"
 
-alias ..="cd .."
-
-alias battery='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\ full|to\ empty|percentage"'
-alias seashell="nc seashells.io 1337"
-alias chat-libera="catgirl -h irc.libera.chat -n beta_"
-alias pmc="python3 -m portablemc"
-
-alias load-jabba='[ -s "/home/beta/.jabba/jabba.sh" ] && source "/home/beta/.jabba/jabba.sh"'
-
-# Add spicetify to path
-export PATH="$PATH:$HOME/.spicetify"
