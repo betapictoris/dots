@@ -1,7 +1,0 @@
-[user]
-	email = git@mrhallway.me
-	name = Beta Pictoris
-[repo]
-	branch = dev
-[init]
-	defaultBranch = dev
