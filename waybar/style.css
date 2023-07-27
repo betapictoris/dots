@@ -1,0 +1,47 @@
+* {
+	font-family: "IBM Plex Sans";
+}
+
+window#waybar {
+	border-radius: 8;
+	background-color: #FFFFFF;
+	color: #12111E;
+
+	padding: 4px;	
+
+	border: 2px #FB71A4;
+}
+
+
+#workspaces {
+	padding-top: 16px;
+}
+
+
+#workspaces button {
+	margin-left: 18;
+	margin-right: 18;
+	margin-bottom: 2;
+	
+	border-radius: 48;
+	background-color: transparent;
+
+	box-shadow: none;
+	border: none;
+}
+
+#worspaces button:hover {
+	background-color: #F0EFFF;
+}
+
+#workspaces button.active {
+	background-color: #FB71A4;
+}
+
+#battery {
+	padding-bottom: 16px;
+}
+
+#clock, #battery {
+	padding-top: 8px;
+}
