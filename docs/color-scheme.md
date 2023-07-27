@@ -2,15 +2,15 @@
 
 ## Accent Colors
 
-| Color name  | Hex code  | 
-|-------------|-----------|
-| Red         | #FF4B4D   | 
-| Green       | #65F916   |
-| Blue        | #1565DC   |
-| Cyan        | #2CE1EB   |
-| Yellow      | #FFCB41   |
-| Pink        | #FB71A4   |
-| Orange      | #F79716   |
+| Color name  | Standard | Muted   | 
+|-------------|----------|---------|
+| Red         | #FF4B4D  | #ea0003 |
+| Green       | #65F916  | #2e8453 |
+| Blue        | #1565DC  | #1565DC |
+| Cyan        | #2CE1EB  | #1076a5 |
+| Yellow      | #FFCB41  |         |
+| Pink        | #FB71A4  | #c21b66 |
+| Orange      | #F79716  | #d33e08 |
 
 ## Surface Colors
 
