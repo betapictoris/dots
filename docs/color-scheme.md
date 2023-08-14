@@ -6,7 +6,7 @@
 |-------------|----------|---------|
 | Red         | #FF4B4D  | #EA0003 |
 | Green       | #65F916  | #2E8453 |
-| Blue        |          | #1565DC |
+| Blue        | #0555CC  | #1565DC |
 | Cyan        | #2CE1EB  | #1076A5 |
 | Yellow      | #FFCB41  |         |
 | Pink        | #FB71A4  | #C21B66 |
