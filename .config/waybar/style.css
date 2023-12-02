@@ -1,0 +1,34 @@
+@import "./rose-pine.css";
+
+* {
+  font-family: "FiraCode Nerd Font Mono";
+  padding: 2px;
+}
+
+
+window#waybar {
+	border-radius: 8px;
+  border: 2px @pine solid;
+
+	background-color: @surface;
+	color: @text;
+}
+
+
+
+
+#workspaces button {
+	box-shadow: none;
+	border: none;
+
+  color: @text;
+}
+
+#workspace button:hover {
+  color: @pine;
+}
+
+#workspace button.active {
+  color: @rose;
+}
+

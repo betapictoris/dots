@@ -1,0 +1,30 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "width": 1028,
+  "margin-top": 8,
+  "margin-left": "auto",
+  "margin-bottom": 48,
+  "margin-right": "auto",
+  "gtk-layer-shell": false,
+
+  "output": ["DP-2"],
+
+  "modules-left": [
+		"hyprland/workspaces",
+	],
+
+  "modules-center": [
+    
+  ],
+
+  "modules-right": [
+    "clock",
+  ],
+
+  
+	"clock": {
+		"format": "{:%H:%M}",
+    "format-alt": "{:%a, %d}"
+	},
+}
